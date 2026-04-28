@@ -54,6 +54,11 @@ python app.py
 
 ---
 
+### Codeübertragung
+Die Anwendung wurde auf der Azure VM entwickelt und anschließend per `scp` auf den lokalen Rechner übertragen, um sie in GitHub zu versionieren.
+
+---
+
 ## 6. Port freigeben
 - Port 5000 in Azure NSG geöffnet
 
