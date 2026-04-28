@@ -20,19 +20,23 @@ In diesem Projekt wurde eine Linux VM in Azure erstellt und eine einfache Python
 ### 2. Verbindung per SSH
 ```bash
 ssh -i key.pem azureuser@<public-ip>
+´´´
 
 ### 3. Python Umgebung
 ```bash
 python3 -m vev vev
 source venv/bin/activate
+´´´
 
 ### 4. Flask installieren 
 ```bash
 pip install flask
+´´´
 
 ### 5. App erstellen und starten
 ´´´bash
 python app.py
+```
 
 ### 6. Port freigeben 
 - Port 5000 in Azure NSG geöffnet
